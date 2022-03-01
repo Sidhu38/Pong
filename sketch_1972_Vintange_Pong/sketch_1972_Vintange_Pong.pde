@@ -7,10 +7,13 @@ float x1RightNet, y1RightNet, x2RightNet, y2RightNet;
 float x1MiddleLine, y1MiddleLine, x2MiddleLine, y2MiddleLine;
 PImage bg;
 
+
 void setup() {
-   size(1343, 745);
+  size(1343, 745);
   population(); 
+  textSetup();
   bg = loadImage("BasketballBackgroundFORPONG.jpg");
+  
 }//End setup
 
 void draw() {
